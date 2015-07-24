@@ -2,4 +2,5 @@ In this study, subjects performed each of six activities (walking, walking upsta
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-The original dataset was subsetted to only contain variable information that was referred to as a "mean" or "standard deviation" in the original dataset.  This subsetted data was then averaged for each activity for each subject to produce the data in this table.
+
+In order to process the data, the code: 1) binds together file info that identifies subject and activity for all of the collected data; 2) more specifically labels the dataset so that all testing variables and activities are made explicit; 3) subsets out the variables that refer to means or standard deviation calculations from the data; and 4) generates a new dataset where means are calculated for each subject and each activity.
