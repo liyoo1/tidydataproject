@@ -1,0 +1,5 @@
+In this study, subjects performed each of six activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying).  Each of the subjects (1-30) is represented by a separate row.  The values in the data frame represent the average values that were obtained from a particular subject for a given activity.  These average values were derived from the dataset from the following source:
+
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+The original dataset was subsetted to only contain variable information that was referred to as a "mean" or "standard deviation" in the original dataset.  This subsetted data was then averaged for each activity for each subject to produce the data in this table.
